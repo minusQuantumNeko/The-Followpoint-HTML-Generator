@@ -1,0 +1,11 @@
+{
+  "name": "html-generator",
+  "version": "0.0.1",
+  "description": "Generates an interview with HTML code included after you paste raw one in 'interview.txt'.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
