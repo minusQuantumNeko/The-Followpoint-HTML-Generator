@@ -9,8 +9,9 @@ Before running the program, there are multiple variables you need to set in `con
 1. `interviewerName` and `intervieweeName`, which are used for interviewer and interviwee avatars and to display their nicknames.
 2. `interviewerID` and `intervieweeID`, which are used for links to their profiles.
 3.  `interviewerGroup` and `intervieweeGroup`, which are used to set their nickname colors as their group color.
-4. `fileName`, which is your newspost file name (PLEASE don't include `.md` in here).
-<br>Example: "`2024-09-16-the-followpoint-xootynator-the-ceo-of-full-area`".
+4. `interviewerAvatarVersion` and `intervieweeAvatarVersion`, which are used to let osu! know which pfp from wiki to use.
+<br>If `/wiki/shared/avatars/` does not contain either of the avatars or their avatar didn't change since first addition - please keep their value at default (`1`), if it's a new pfp - make it `2` and so on.
+<br>**Note**: If last avatar that was used has a number at the end (eg. MegaMix-3.jpg) and the avatar of the player didn't change since then - use the number of the last avatar.
 
 # Usage
 
