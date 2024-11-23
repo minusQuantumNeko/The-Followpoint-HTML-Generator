@@ -1,6 +1,6 @@
 # The Followpoint's HTML Generator
 
-Generates an interview with HTML code included after you paste raw one in `interview.txt` file.
+Generates an interview with HTML code included after you paste raw one in `interview.md` file.
 
 # Config
 
@@ -17,7 +17,7 @@ Before running the program, there are multiple variables you need to set in `con
 
 0. If you don't have node.js installed yet, make sure to do so!
 1. Setup config (see: [Config](#config)).
-2. Paste questions and answers to `interview.txt` file and **make sure to surround questions with triple asterisks** (\*\*\*). You may find an example in the file itself.
+2. Paste questions and answers to `interview.md` file and **make sure to surround questions with triple asterisks** (\*\*\*). You may find an example in the file itself.
 3. Run `npm start` in console (make sure you are in the same directory as `index.js` file). You can open PowerShell console by doing `Shift + Right Click` while inside script's folder and clicking "Open PowerShell window here".
 <br>Alternatively you can just run `run.bat` file included in this repository (**if you use Windows**).
 4. Enjoy your formatted interview in `formatted_interview.md` :D
